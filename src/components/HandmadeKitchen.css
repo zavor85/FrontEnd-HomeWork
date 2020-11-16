@@ -1,0 +1,73 @@
+.handmade-kitchen {
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 1;
+  margin-right: 30px;
+  margin-top: -39px;
+  margin-bottom: 1px;
+  align-items: center;
+}
+
+.handmade-kitchen-img-container{
+  width: 1000px;
+  height: 667px;
+}
+
+.handmade-kitchen-img {
+  flex: 25%;
+}
+
+.handmade-kitchen-text-container{
+  flex: 25%;
+  text-align: left;
+}
+
+.handmade-kitchen-text {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.handmade-kitchen-text > h6 {
+  letter-spacing: 3px;
+  color: #d4b254;
+  text-transform: uppercase;
+  font-size: 13px;
+  max-width: 437px;
+  margin-left: 100px;
+}
+.handmade-kitchen-text > h1 {
+  font-size: 42px;
+  color: #222222;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-family: Helvetica-Bold;
+  max-width: 500px;
+  margin-left: 100px;
+  text-align: left;
+}
+
+.handmade-kitchen-text > h5 {
+  font-size: 15px;
+  color: #777777;
+  margin-bottom: 40px;
+  max-width: 579px;
+  margin-left: 100px;
+}
+
+.btn-container {
+  margin-left: 100px;
+  max-width: 228px;
+}
+
+ @media screen and (max-width: 1400px){
+  .handmade-kitchen {
+    margin-bottom: 100px;
+  }
+
+
+  .handmade-kitchen-img-container {
+    justify-content: left;
+    width: 80%;
+    margin-bottom: 100px;
+  }
+}
